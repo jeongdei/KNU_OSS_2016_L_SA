@@ -144,7 +144,7 @@ class CallHelper {
                     Log.d("VS","Buffer created of size " + minBufSize);
                     DatagramPacket packet;
 
-                    final InetAddress destination = InetAddress.getByName("172.30.1.53"); // change to localhost
+                    final InetAddress destination = InetAddress.getByName("172.30.1.14"); // change to localhost
                     Log.d("VS", "Address retrieved");
 
 
